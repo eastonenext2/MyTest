@@ -13,7 +13,7 @@ import { ListItem, Avatar } from 'react-native-elements';
 import { FAB, Provider as PaperProvider, List } from 'react-native-paper';
 import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-//import { initializeConnect } from 'react-redux/es/components/connect';
+//import { initializeConnect } from 'react-redux/es/components/connect';git push
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { loadAll } from '../src/Store';
 import { memo_type } from '../types/Types';
@@ -71,7 +71,7 @@ const render_item = (listRenderItemInfo: ListRenderItemInfo<memo_type>) => {
   const id = listRenderItemInfo.item.id === '1' ? '#000000' : '#ffffff';
   const memo = listRenderItemInfo.item.memo;
   const createdAT = listRenderItemInfo.item.createdAt;
-  console.log('memo=' + memo);
+  //console.log('memo=' + memo);
   const avatar_mozi: string = 'MM';
   return (
     <View style={styles.item}>

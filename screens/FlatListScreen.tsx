@@ -135,7 +135,7 @@ export const flatListScreen = (Props: any) => {
 
   return (
     <View style={styles.container}>
-      <Text>----flat List Screen-----</Text>
+      <Text>----///flat List Screen-----</Text>
 
       <FlatList
         data={memos}
